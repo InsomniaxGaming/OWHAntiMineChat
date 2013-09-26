@@ -1,0 +1,4 @@
+name: OWHAntiMineChat
+description: "Filter out those awful Minechat spam messages!"
+main: me.insom.owhantiminechat.core.OWHAntiMineChat
+version: 0.1

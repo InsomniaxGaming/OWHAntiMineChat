@@ -7,9 +7,12 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class OWHAntiMineChat extends JavaPlugin implements org.bukkit.event.Listener{
 	
-	public OWHAntiMineChat(){
+	public void onEnable()
+	{
 		getServer().getPluginManager().registerEvents(this, this);
 	}
+	
+	public void onDisable(){}
 	
 	String peskyMessageStart = "connected with a";
 	String peskyMessageEnd = "using MineChat";
